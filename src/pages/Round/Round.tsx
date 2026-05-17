@@ -71,7 +71,7 @@ export const Round = () => {
             animate={{ scale: 1, opacity: 1 }}
             className="text-neon-red text-xs font-black uppercase tracking-[0.2em] mt-2"
           >
-            Última oportunidad para detectar al intruso
+            Última oportunidad para detectar al impostor
           </motion.p>
         )}
       </div>
@@ -118,7 +118,7 @@ export const Round = () => {
 
       <div className="space-y-8 w-full text-center">
         <p className="text-sm font-medium text-white/40 leading-relaxed max-w-xs mx-auto italic">
-          "Describe tu palabra sin revelar el núcleo... El intruso está entre nosotros."
+          "Describe tu palabra sin revelar el núcleo... El impostor está entre nosotros."
         </p>
 
         <div className="flex flex-col items-center space-y-4">

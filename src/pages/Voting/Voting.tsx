@@ -40,7 +40,7 @@ export const Voting = () => {
           <Gavel className="h-6 w-6" />
           <h2 className="text-4xl font-black italic uppercase tracking-tighter">Proceso de Votación</h2>
         </div>
-        <p className="text-white/40 text-[10px] font-black uppercase tracking-[0.4em]">Identificar al intruso</p>
+        <p className="text-white/40 text-[10px] font-black uppercase tracking-[0.4em]">Identificar al impostor</p>
       </div>
 
       <div className="grid grid-cols-2 gap-4">

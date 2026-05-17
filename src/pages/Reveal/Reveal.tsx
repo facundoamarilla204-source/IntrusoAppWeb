@@ -84,7 +84,7 @@ export const Reveal = () => {
                           transition={{ duration: 0.1, repeat: Infinity }}
                           className="text-7xl font-black text-white italic tracking-tighter uppercase leading-none"
                         >
-                          INTRUSO
+                          IMPOSTOR
                         </motion.h4>
                       </div>
                       <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">Evita ser detectado a toda costa</p>

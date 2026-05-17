@@ -42,7 +42,7 @@ export const EliminationResult = () => {
           
           <div className="space-y-1">
             <h4 className={`text-3xl font-black italic tracking-tighter uppercase ${isImpostor ? 'text-[#FF003C]' : 'text-blue-500'}`}>
-              Era {isImpostor ? 'un Intruso' : 'un Inocente'}
+              Era {isImpostor ? 'el Impostor' : 'un Inocente'}
             </h4>
           </div>
         </Card>

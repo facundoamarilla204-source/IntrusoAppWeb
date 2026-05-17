@@ -127,7 +127,7 @@ export const Setup = () => {
 
       {/* Impostor Section */}
       <div className="space-y-4">
-        <label className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Intrusos</label>
+        <label className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Impostores</label>
         <div className="flex space-x-3">
           {[1, 2, 3].map((num) => {
             const isDisabled = (num === 2 && playerNames.length < 5) || (num === 3 && playerNames.length < 8) || isGeneratingAiHint;
@@ -150,7 +150,7 @@ export const Setup = () => {
           })}
         </div>
         {playerNames.length < 5 && (
-           <p className="text-[9px] uppercase tracking-widest text-white/20 text-center -mt-1">Requiere 5+ operativos para 2 intrusos</p>
+           <p className="text-[9px] uppercase tracking-widest text-white/20 text-center -mt-1">Requiere 5+ operativos para 2 impostores</p>
         )}
       </div>
 
@@ -158,8 +158,8 @@ export const Setup = () => {
       <div className="flex flex-col space-y-3">
         <div className="flex items-center justify-between p-4 bg-white/5 border border-white/10 rounded-2xl">
           <div className="space-y-1">
-            <label className="text-[10px] font-black uppercase tracking-[0.2em] text-white/90">Pista para Intruso</label>
-            <p className="text-[9px] uppercase tracking-widest text-white/40">El intruso recibe una pista de la palabra</p>
+            <label className="text-[10px] font-black uppercase tracking-[0.2em] text-white/90">Pista para Impostor</label>
+            <p className="text-[9px] uppercase tracking-widest text-white/40">El impostor recibe una pista de la palabra</p>
           </div>
           <button 
             disabled={isGeneratingAiHint}

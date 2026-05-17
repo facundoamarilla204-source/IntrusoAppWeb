@@ -36,14 +36,14 @@ export const SplashScreen = ({ onFinish }: { onFinish: () => void }) => {
               className="relative"
             >
               <h1 className="text-6xl font-black italic tracking-tighter text-white">
-                INTRUSO
+                IMPOSTOR
               </h1>
               <motion.div 
                 animate={{ x: [-2, 2, -1], opacity: [1, 0.8, 1] }}
                 transition={{ duration: 0.2, repeat: Infinity }}
                 className="absolute inset-0 text-neon-red opacity-50 blur-[2px]"
               >
-                INTRUSO
+                IMPOSTOR
               </motion.div>
             </motion.div>
 

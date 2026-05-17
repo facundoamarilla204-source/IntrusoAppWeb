@@ -61,7 +61,7 @@ export const Results = () => {
              </div>
              <div className="space-y-2">
                <h2 className="text-6xl font-black italic tracking-tighter text-neon-red uppercase">DERROTA</h2>
-               <p className="text-white/30 font-black uppercase tracking-[0.4em] text-[10px]">Intruso Escapó</p>
+               <p className="text-white/30 font-black uppercase tracking-[0.4em] text-[10px]">El Impostor Escapó</p>
              </div>
            </>
         )}

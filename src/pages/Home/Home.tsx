@@ -26,10 +26,10 @@ export const Home = () => {
             <div className="w-4 h-4 bg-white rounded-sm rotate-45" />
           </div>
           <h1 className="text-6xl font-black tracking-tighter italic text-white uppercase leading-none">
-            INTRUSO
+            IMPOSTOR
           </h1>
-          <p className="text-[10px] uppercase tracking-[0.4em] text-white/40 mt-3 font-black">
-            Integridad del Sistema: Comprometida
+          <p className="text-[10px] uppercase tracking-[0.2em] text-white/40 mt-3 font-black">
+            Mentir nunca fue tan divertido.
           </p>
         </div>
       </motion.div>

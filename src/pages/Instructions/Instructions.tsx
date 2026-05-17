@@ -31,8 +31,8 @@ export const Instructions = () => {
             <h3 className="text-xl font-black uppercase tracking-widest text-white">Objetivo</h3>
           </div>
           <p className="text-sm text-white/60 leading-relaxed font-medium">
-            Todos los jugadores reciben la misma palabra secreta, excepto el <span className="text-neon-red font-bold">INTRUSO</span>. 
-            El objetivo de los jugadores es descubrir al intruso. El objetivo del intruso es pasar desapercibido y deducir la palabra secreta.
+            Todos los jugadores reciben la misma palabra secreta, excepto el <span className="text-neon-red font-bold">IMPOSTOR</span>. 
+            El objetivo de los jugadores es descubrir al impostor. El objetivo del impostor es pasar desapercibido y deducir la palabra secreta.
           </p>
         </Card>
 
